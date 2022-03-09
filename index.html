@@ -1,4 +1,106 @@
+<!DOCTYPE html>
 <html>
-    <h1>Craig's Portfolio</h1>
-    <img src="Headshot.png"
+	<head>
+		<title>My Portfolio</title>
+		<link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=display-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+	<div class="container">
+
+		<div class="intro">
+			<img class="profile-picture" src="images/Headshot-Resized2.jpg" />
+			<h1 id="my-name">Craig Branson</h1>
+			<h3>Web developer in training</h3>
+			<p>{{ pause and ponder }}</p>
+		</div>
+
+		<hr/>
+
+		<div class="about-grid">
+			<div class="I-am">
+				<h3>I am</h3>
+				<ul class="about-list">
+					<li class="about-list-item">An engineer</li>
+					<li class="about-list-item">A coder</li>
+					<li class="about-list-item">A husband</li>
+					<li class="about-list-item">A cat dad</li>
+				</ul>
+			</div>
+			<div class="I-like">
+				<h3>I like to</h3>
+				<ul class="about-list">
+					<li class="about-list-item">Travel</li>
+					<li class="about-list-item">Cook</li>
+					<li class="about-list-item">Play video games</li>
+					<li class="about-list-item">Make Jerky</li>
+				</ul>
+			</div>
+		</div> 
+		
+		<hr/>
+
+		<div>
+			<h3 class="projects-heading">My Projects</h3>
+			<div class="projects-grid">
+				<div class="project-image-wrapper">
+					<img class="project-image" src="images/project-1.jpg" />
+						<h4>Project 1</h4>
+				</div>
+				<div class="project-image-wrapper">
+					<img class="project-image" src="images/project-2.jpg" />
+						<h4>Project 2</h4>
+				</div>
+				<div class="project-image-wrapper">
+					<img class="project-image" src="images/project-3.jpg" />
+						<h4>Project 3</h4>
+				</div>
+				<div class="project-image-wrapper">
+					<img class="project-image" src="images/project-4.jpg" />
+						<h4>Project 4</h4>
+				</div>
+			</div>
+		</div>
+
+		<hr/>
+
+		<div class="links-and-contact">
+			<div class="links">
+				<h3>Links</h3>
+				<ul class="links-list">
+					<li>
+						<a href="https://github.com/craigbranson">Github</a>
+					</li>
+					<li>
+						<a href="https://facebook.com/craig.branson.7">Facebook</a>
+					</li>
+					<li>
+						<a href="https://linkedin.com/in/craig-branson-344138b5">LinkedIn</a>
+					</li>
+				</ul>
+			</div>
+		
+			<div class="contact">
+				<form action="#">
+					<label for="email">
+						<h4>Email</h4>
+						<input id="email" placeholder="Enter your email" />
+					</label>
+					<label for="message">
+						<h4>Message</h4>
+						<textarea id="message">Your Message</textarea>
+					</label>
+					<div class="submit-button-wrapper">
+					<input type="submit" value="Send Message">
+					</div>
+				</form>
+
+			</div>
+		</div>
+
+	</div>
+
+	</body>
 </html>
